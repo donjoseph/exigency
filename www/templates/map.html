@@ -1,0 +1,23 @@
+<ion-view>
+    <ion-content>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">Exigency ++</h1>
+      </ion-header-bar>
+
+        <div id="map" data-tap-disabled="true"></div>
+          <nav mfb-menu position="bl" effect="zoomin"  active-icon="ion-edit"
+             resting-icon="ion-plus-round" toggling-method="click"
+               class="app-menu"
+               menu-state="menuState" ng-class="{'fadeOut' : menuState === 'closed'}">
+            <button mfb-button label="Add Comtacts" icon="ion-ios-person"></button>
+            <button mfb-button label="First Aid" icon="ion-ios-plus"></button>
+            <button mfb-button label="Do anything again" icon="ion-ios-star"></button>
+          </nav>
+
+      <div id="listing">
+              <table id="resultsTable">
+                <tbody id="results"></tbody>
+              </table>
+      </div>
+    </ion-content>
+</ion-view>

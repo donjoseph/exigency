@@ -1,0 +1,13 @@
+{
+  "name": "h2c",
+  "app_id": "6082fd22",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ],
+  "defaultBrowser": "chrome"
+}
